@@ -1,0 +1,16 @@
+[package]
+name = "anisa-rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.4.6", features = ["derive"] }
+nalgebra = "0.32.3"
+nannou = { version = "0.18.1" }
+log = "0.4.20"
+num-traits = "0.2.17"
+serde = "1.0.189"
+pallete = "1.1.0"
+palette = "0.7.3"
+ndarray = "0.15.6"
+quantity = { version = "0.1.0", path = "src-derive", package = "src-derive" }

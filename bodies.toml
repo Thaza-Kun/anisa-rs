@@ -1,0 +1,47 @@
+# mass scale: kg
+# distance scale: au
+# velocity scale: pixels per sec
+
+# TODO Simulate to scale
+
+[[planets]]
+mass = 1.98892e30 # kg
+velocity = 0.0
+distance = 0.0
+color = "white"
+
+# Mercury
+[[planets]]
+mass = 0.0553
+velocity = 70.9
+distance = 40
+color = "red"
+
+# Venus
+[[planets]]
+mass = 4.87
+velocity = 5.2
+distance = 70
+color = "red"
+
+# Earth
+[[planets]]
+mass = 5.9742e24
+velocity = 4.5
+distance = 1.0
+color = "blue"
+
+# Mars
+[[planets]]
+mass = 6.39e23
+velocity = 3.4
+distance = 1.5
+color = "yellow"
+
+## Jupiter
+#[[planets]]
+#mass = 18.0
+#velocity = 0.001307
+#distance = 778.5
+#color = "yellow"
+
