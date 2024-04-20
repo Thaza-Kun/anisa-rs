@@ -1,8 +1,10 @@
-use quantity::TimeQuantity;
+use super::TemporalUnit;
 use crate::units::Unit;
+use quantity::TimeQuantity;
+use std::ops::{Div, Mul};
 
-#[derive(TimeQuantity)]
-#[conversion(second=1.)]
+#[derive(PartialEq, Debug, Copy, Clone, TimeQuantity)]
+#[conversion(second = 1.)]
 pub struct Second {
-    value: f64
+    value: f32,
 }

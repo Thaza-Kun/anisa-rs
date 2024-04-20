@@ -1,10 +1,10 @@
-use std::ops::{Div, Mul};
+use super::DistanceUnit;
 use crate::units::Unit;
 use quantity::LengthQuantity;
-use super::DistanceUnit;
+use std::ops::{Div, Mul};
 
 #[derive(PartialEq, Debug, Copy, Clone, LengthQuantity)]
-#[conversion(meter=1.)]
+#[conversion(meter = 1.)]
 pub struct Meter {
-    value: f32
+    value: f32,
 }

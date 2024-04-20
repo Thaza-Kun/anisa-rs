@@ -1,10 +1,10 @@
-use std::ops::{Div, Mul};
-use quantity::LengthQuantity;
-use crate::units::Unit;
 use super::DistanceUnit;
+use crate::units::Unit;
+use quantity::LengthQuantity;
+use std::ops::{Div, Mul};
 
-#[derive(LengthQuantity)]
-#[conversion(meter=149.6e9)]
+#[derive(PartialEq, Debug, Copy, Clone, LengthQuantity)]
+#[conversion(meter = 149.6e9)]
 pub struct AstroUnit {
-    value: f32
+    value: f32,
 }
